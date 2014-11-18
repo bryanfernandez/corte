@@ -1,0 +1,111 @@
+div.titulo{
+  text-align: center;
+    background:#F90;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 140px;
+    
+  
+    
+  padding: 3px 10px; 
+  border: PowderBlue 5px solid; 
+  border-radius: 20px; 
+}
+div{
+  
+}
+div.contenido{
+    text-align: center;
+    background: steelblue;
+   padding: 3px 10px; 
+  border: PowderBlue 5px solid; 
+  border-radius: 20px; 
+    
+    
+   margin-left: 400px;
+   margin-right: 400px;
+   margin-top :0px;
+   padding-bottom: 60px;
+   
+    
+   
+}
+
+div.logo{
+     background-image:url(../img/l3.png);
+    background-repeat:no-repeat; 
+     width:250px;height:300px;
+   margin-left: 695px;
+   margin-right: 200px;
+   margin-top :-300px;
+         
+   
+}
+
+body{
+    background-image:url(../img/logeo.png);
+    background-repeat:no-repeat;
+}
+h2{
+    font-family: fantasy;
+    color: #ffffff;
+}
+
+
+input[type="text"]{
+   width:250px;height:30px;border: 1px ;
+   
+   
+}
+
+input[type="password"]{
+   width:250px;height:30px;border: 1px ;
+   margin-bottom: 5px;
+   
+   
+}
+input[type="submit"]{
+   width:100px;height:30px;border: 1px ;
+   font-size: 18px;
+    font-family: fantasy;
+   
+}
+
+
+label{
+    font-size: 22px;
+    font-family: fantasy;
+    color:black;
+}
+a{
+     color:black;
+}
+
+form{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    
+}
+
+
+
+header.encabezado1{
+    background:#F90;
+     height:140px;
+      
+     
+     border: PowderBlue 5px solid; 
+  border-radius: 20px;
+}
+
+label.labelusuario{
+color: #ffffff;
+font-size: 15px;
+padding-left: 1188px;
+
+
+
+}
+
+    

@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    background-image:url(../img/fondo.png);
+    background-repeat:no-repeat;
+}
+
+nav.me{
+	background-color:#006;
+	border:#00F 4px solid;
+	width:900px;
+	height:80px;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:14%;
+	
+	
+	
+}
+
+<style type="text/css">
+  /* el menú en si mismo */
+  .mi-menu  {
+	  
+	  
+	  	  
+    border-radius: 5px;
+    list-style-type: lower-latin;
+    margin: 100px auto; /* si queremos centrarlo */
+    padding: 0;
+    /* la altura y su ancho dependerán de los textos */
+    height: 40px; 
+    width: 510px;
+    /* el color de fondo */
+    background-color:#006;
+    background: -moz-linear-gradient(#555,#222);
+    background: -webkit-linear-gradient(#555,#222);
+    background: -o-linear-gradient(#555,#222);
+    background: -ms-linear-gradient(#555,#222);
+    background: linear-gradient(#555,#222);
+  }
+
+  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+  .mi-menu  br { display:none; }
+
+  /* cada item del menu */
+  .mi-menu  li {
+    display: block;
+    float: left; /* la lista se ve horizontal */
+    height: 40px;
+    list-style: none;
+    margin-left:16%;/* ojooooooooooooo se separad el menu */
+    padding: 0;
+    position: relative;
+	background-color:#006; /* color de cuadrito*/
+	
+  }
+  .mi-menu li a {
+        color: #EEE;
+    display: block;
+    font-family: Tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 14px;
+    margin: 6px 0;
+    text-decoration: none;
+    /* animamos el cambio de color de los textos */
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+  /* eliminamos los bordes del primer y el último */
+  .mi-menu li:first-child a { border-left: none; }
+  .mi-menu li:last-child a{ border-right: none; }
+  /* efecto hover cambia el color */
+  .mi-menu li:hover > a { color: Crimson; }
+
+  /* los submenús */
+  .mi-menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0; /* no son visibles */
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* el color de fondo */
+    background-color:#006; /* color de cuadrito*/
+    background: -moz-linear-gradient(#006,#555);
+    background: -webkit-linear-gradient(#006,#555);
+    background: -o-linear-gradient(#006,#555);
+    background: -ms-linear-gradient(#006,#555);
+    background: linear-gradient(#006,#555);
+    /* animamos su visibildiad */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+  }
+  /* son visibes al poner el cursor encima */
+  .mi-menu li:hover > ul { opacity: 1; }
+
+   /* cada un ode los items de los submenús */
+  .mi-menu ul li {
+	  
+    height: 0; /* no son visibles */
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+  }
+  .mi-menu li:hover > ul li {
+    height: 36px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+  }
+  .mi-menu ul li a {
+	  
+    border: none;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding: 5px 20px;
+    width: 100px;
+  }
+  /* el último n otiene un borde */
+  .mi-menu ul li:last-child a { border: none; }
+.formulario{
+margin-top:-100px;
+width:850px;
+height:590px;
+margin-left:220px;
+
+
+border:#003 5px solid;
+ background-color:#4682B4;
+	
+}
+
+
+
+.formulario h1{
+	text-align:center;
+	color:#003;
+	padding-top:0%;
+	font-size:36px;
+	font-family:Lucida Calligraphy;
+}
+
+
+form fieldset{
+
+float:none;
+  width: 60%;
+  height:380px;
+  margin-left:8%;
+  margin-top:0%;
+  padding-bottom:5%;
+  border:#003 3px solid;
+  background-color:#ffffff;
+}
+
+
+
+
+.for fieldset label{
+    color: #003;
+    display: inline-block;
+    
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 15px;
+	margin-left:40px;
+    padding: 3px;
+    width: 90px;}
+	
+	.for fieldset input{
+	background: #FFF;
+   border: 1px solid #003;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 12px;
+   padding-top:11px;
+   margin-top:16px;
+   font-size:16px;
+   
+	}
+
+
+.for fieldset legend{
+	color: #900;
+	font-size: 29px;
+}
+
+
+div.logo{
+	width: 200px;
+  height:200px;
+  
+   background-image:url(../img/CIUDAD.png);
+   margin-left:410px;
+   margin-bottom:-300px;
+   margin-top:-45%;
+}
+
+button.submit{
+	color: #fff;
+	
+	width: 140px;
+  height:40px;
+   border: 3px solid #fff;
+   border-radius: 5px 5px 5px 5px;
+   margin-left:50px;
+   font-size:16px;
+   font-family: sans-serif;
+   background-color:#090;
+}
+
+
+div.user{
+  width: 256px;
+  height:180px;
+  background-image:url(../img/user.png);
+  background-repeat:no-repeat;
+  margin-left:53%;
+  margin-top:-20%;
+  
+}
+
+
+
+
